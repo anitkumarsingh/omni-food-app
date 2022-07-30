@@ -94,7 +94,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #f8d8bd;
+	background-color: #fdf2e9;
 	height: 3.2rem;
 	padding: 0 3.2rem;
 }
@@ -142,7 +142,7 @@ header {
 ========= HERO COMPONENTS=========
 */
 .hero-section {
-	background-color: #f8d8bd;
+	background-color: #fdf2e9;
 }
 .hero {
 	max-width: 70rem;
