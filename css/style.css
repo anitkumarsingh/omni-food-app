@@ -31,7 +31,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: sans-serif;
+  font-family:'Rubik', sans-serif;
   line-height: 1;
   color: #555;
 }
@@ -57,7 +57,7 @@ body{
   font-weight: 700;
   margin-bottom: 2rem;
   line-height: 1.05;
-  letter-spacing: -1.2px;
+  letter-spacing: -2.2px;
 }
 .hero-text{
   font-size: 1.15rem;
@@ -68,9 +68,9 @@ body{
 .btn:visited{
   text-decoration: none;
   font-size: 1.2rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1.02rem 2.4rem;
   border-radius: 15px;
- 
+ font-weight: 600;
 }
 .btn-primary{
   background-color: #e67e22;
@@ -100,6 +100,7 @@ body{
   display: flex;
   align-items: center;
   gap: 1.1rem;
+  margin-top: -2.2rem;
 }
 .delivered-faces{
   display: flex;
