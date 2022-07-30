@@ -84,6 +84,22 @@ body {
 }
 
 /* 
+========= HERDER COMPONENTS=========
+*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8d8bd;
+  height: 3.2rem;
+  padding: 0 3.2rem;
+}
+.logo{
+  height: 2.04rem;
+}
+
+
+/* 
 ========= HERO COMPONENTS=========
 */
 .hero-section {
