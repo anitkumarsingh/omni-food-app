@@ -88,13 +88,13 @@ body {
 }
 
 .container{
-	max-width: 120rem;
+	max-width: 70rem;
 	margin: 0 auto;
 }
 
-.grid-container{
+.grid{
 	display: grid;
-	align-items: center;
+  gap: 9.6rem;
 }
 .grid-col-2{
 	grid-template-columns: repeat(2,1fr);
@@ -163,7 +163,7 @@ header {
 	background-color: #fdf2e9;
 }
 .hero {
-	max-width: 70rem;
+	max-width: 72rem;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -208,4 +208,10 @@ header {
 .milestone-number {
 	color: #b8651b;
 	font-weight: 700;
+}
+.how-work{
+	padding: 9.6rem 0;
+}
+.step-img{
+	width: 50%;
 }
