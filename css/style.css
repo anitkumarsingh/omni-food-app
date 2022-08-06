@@ -151,3 +151,28 @@ header {
 .step-img {
 	width: 40%;
 }
+
+/* 
+========= FEATURE-IN =========
+*/
+.featured-section{
+	padding: 4.6rem 0;
+	background-color: #f8f9fa;
+}
+.featured-heading{
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: .75px;
+	text-transform: uppercase;
+	margin-bottom: 2.5rem;
+}
+.logos{
+	display: flex;
+	justify-content: space-around;
+}
+.featured-in--logo{
+	height: 1.9rem;
+	filter: brightness(0);
+	opacity: 0.6;
+}
