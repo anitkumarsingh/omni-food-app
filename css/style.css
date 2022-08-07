@@ -176,3 +176,25 @@ header {
 	filter: brightness(0);
 	opacity: 0.6;
 }
+
+/* 
+========= HOW IT WORKS =========
+*/
+.meals-section {
+	padding: 9.6rem 0;
+}
+.meals-img{
+	width: 100%;
+}
+.meal-title{
+	font-size: 1.6rem;
+	color: #333;
+	margin-bottom: 3.2rem;
+	font-weight: 600;
+}
+.meal-attributes{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
