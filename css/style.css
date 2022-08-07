@@ -186,9 +186,9 @@ header {
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 	border-radius: 13px;
 	overflow: hidden;
-	transition: all .5s;
+	transition: all 0.5s;
 }
-.meals:hover{
+.meals:hover {
 	transform: translateY(-1.4rem);
 	box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
@@ -215,7 +215,7 @@ header {
 	background-color: #74b816;
 }
 .tag--paleo {
-	background-color:#fab005;
+	background-color: #fab005;
 }
 .meal-title {
 	font-size: 1.6rem;
@@ -239,24 +239,74 @@ header {
 	height: 1.5rem;
 	color: #e67e22;
 }
-.diets{
+.diets {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
 	gap: 1.6rem;
 }
-.list-items{
+.list-items {
 	font-size: 1.1rem;
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
 }
-.diet-icon{
-	width:1.5rem ;
+.diet-icon {
+	width: 1.5rem;
 	height: 1.5rem;
 	color: #e67e22;
 }
-.all-receipes{
+.all-receipes {
 	text-align: center;
 	margin-top: 2.8rem;
+}
+
+/* 
+========= HOW IT WORKS =========
+*/
+.testimonial-section {
+	background-color: #fdf2e9;
+	display: grid;
+	grid-template-columns: 55fr 45fr;
+	align-items: center;
+}
+.testimonial-container {
+	padding: 4.6rem;
+}
+.testimonial-contents {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4.8rem;
+}
+.testimonial-img {
+	width: 4.8rem;
+	border-radius: 100%;
+	margin-bottom: 1.8rem;
+}
+.testimonial-text {
+	font-size: 1.2rem;
+	line-height: 1.36;
+	margin-bottom: 1.8rem;
+}
+.testimonial-author {
+	font-size: 1rem;
+	color: #6f6f6f;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding: 1rem;
+}
+.gallery-items{
+	overflow: hidden;
+}
+.gallery-items img {
+	display: block;
+	width: 100%;
+	transition: all 0.4s;
+}
+.gallery-items img:hover {
+	transform: scale(1.1);
 }
