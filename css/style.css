@@ -157,7 +157,6 @@ header {
 */
 .featured-section {
 	padding: 4.6rem 0;
-	background-color: #f8f9fa;
 }
 .featured-heading {
 	text-align: center;
@@ -187,6 +186,11 @@ header {
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 	border-radius: 13px;
 	overflow: hidden;
+	transition: all .5s;
+}
+.meals:hover{
+	transform: translateY(-1.4rem);
+	box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 .meals-img {
 	width: 100%;
@@ -234,4 +238,25 @@ header {
 	width: 1.5rem;
 	height: 1.5rem;
 	color: #e67e22;
+}
+.diets{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+.list-items{
+	font-size: 1.1rem;
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+}
+.diet-icon{
+	width:1.5rem ;
+	height: 1.5rem;
+	color: #e67e22;
+}
+.all-receipes{
+	text-align: center;
+	margin-top: 2.8rem;
 }
