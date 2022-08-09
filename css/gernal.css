@@ -142,6 +142,9 @@ body {
 	row-gap: 9.6rem;
 	column-gap: 2.6rem;
 }
+.grid:not(:last-child){
+	margin-bottom: 9.6rem;
+}
 .grid-center-v {
 	align-items: center;
 }
