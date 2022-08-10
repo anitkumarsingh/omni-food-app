@@ -467,6 +467,10 @@ header {
 	align-self: end;
 	padding: .8rem;
 }
+.cta-form button:hover{
+	background-color: white;
+	color: #333;
+}
 .cta-heading {
 	margin-bottom: 1.5rem !important;
 }
@@ -490,4 +494,11 @@ header {
 		url('../img/eating.jpg');
 	background-size: cover;
 	background-position: center;
+}
+
+/* 
+========= HOW IT WORKS =========
+*/
+.footer-section {
+	padding: 4.6rem 0;
 }
