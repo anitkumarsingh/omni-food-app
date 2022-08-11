@@ -6,11 +6,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fdf2e9;
-	height: 3.2rem;
-	padding: 0 3.2rem;
+	height: 9.6rem;
+	padding: 0 4.8rem;
 }
 .logo {
-	height: 1.5rem;
+	height: 2.2rem;
 }
 
 /* 
@@ -25,7 +25,8 @@ header {
 }
 .nav-main-list {
 	display: flex;
-	gap: 1rem;
+	/* gap: 1rem; */
+	gap: 3.2rem;
 	transition: all 0.2s;
 }
 .nav-main-list li a {
@@ -34,6 +35,7 @@ header {
 	display: inline-block;
 	padding: 0.8rem 1.6rem;
 	border-radius: 15px;
+	font-size: 1.8rem;
 }
 .nav-main-link:hover {
 	color: #b8651b;
@@ -54,21 +56,22 @@ header {
 */
 .hero-section {
 	background-color: #fdf2e9;
+	padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
-	max-width: 72rem;
+	max-width: 130rem;
 	margin: 0 auto;
+	padding: 0 3.2rem;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr 1fr;
+	gap: 9.6rem;
 	align-items: center;
-	column-gap: 3rem;
-	padding: 3rem 0;
 }
 
 .hero-text {
-	font-size: 1.15rem;
-	line-height: 1.4;
-	margin-bottom: 3rem;
+	font-size: 2rem;
+	line-height: 1.6;
+	margin-bottom: 4.8rem;
 }
 
 .hero-img {
@@ -82,15 +85,15 @@ header {
 .delivered-meals {
 	display: flex;
 	align-items: center;
-	gap: 1.1rem;
-	margin-top: -2.2rem;
+	gap: 1.6rem;
+	/* margin-top: 8rem; */
 }
 .delivered-faces {
 	display: flex;
 }
 .delivered-faces img {
-	width: 2.8rem;
-	height: 2.8rem;
+	height: 4.8rem;
+	width: 4.8rem;
 	border-radius: 100%;
 	border: 3px solid #f8d8bd;
 	margin-right: -1.3rem;
@@ -98,9 +101,13 @@ header {
 .delivered-faces img:last-child {
 	margin: 0;
 }
+.delivered-milestone {
+	font-size: 1.8rem;
+}
 .milestone-number {
 	color: #b8651b;
 	font-weight: 700;
+	font-size: 1.8rem;
 }
 
 /* 
@@ -110,14 +117,14 @@ header {
 	padding: 9.6rem 0;
 }
 .step-no {
-	font-size: 6.8rem;
+	font-size: 8.6rem;
 	font-weight: 600;
 	color: #ddd;
-	margin-bottom: 2.5rem;
+	margin-bottom: 1.2rem;
 }
 .step-description {
-	font-size: 1.2rem;
-	line-height: 1.5;
+	font-size: 1.8rem;
+	line-height: 1.8;
 }
 .img-box {
 	display: flex;
@@ -156,24 +163,24 @@ header {
 ========= FEATURE-IN =========
 */
 .featured-section {
-	padding: 4.6rem 0;
+	padding: 4.8rem 0 3.2rem 0;
 }
 .featured-heading {
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	font-weight: 500;
 	letter-spacing: 0.75px;
 	text-transform: uppercase;
-	margin-bottom: 2.5rem;
+	margin-bottom: 2.4rem;
 }
 .logos {
 	display: flex;
 	justify-content: space-around;
 }
 .featured-in--logo {
-	height: 1.9rem;
+	height: 3.2rem;
 	filter: brightness(0);
-	opacity: 0.6;
+	opacity: 50%;
 }
 
 /* 
@@ -184,7 +191,7 @@ header {
 }
 .meals {
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-	border-radius: 13px;
+	border-radius: 11px;
 	overflow: hidden;
 	transition: all 0.5s;
 }
@@ -196,12 +203,12 @@ header {
 	width: 100%;
 }
 .meal-content {
-	padding: 2rem 2.8rem;
+	padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 .tag {
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: #333;
 	padding: 0.4rem 0.8rem;
 	border-radius: 100px;
@@ -218,9 +225,9 @@ header {
 	background-color: #fab005;
 }
 .meal-title {
-	font-size: 1.6rem;
+	font-size: 2.4rem;
 	color: #333;
-	margin-bottom: 2.2rem;
+	margin-bottom: 3.2rem;
 	font-weight: 500;
 }
 .meal-attributes {
@@ -230,13 +237,14 @@ header {
 	gap: 1rem;
 }
 .meal-attribute {
+	font-size: 1.8rem;
 	display: flex;
 	align-items: center;
-	gap: 1.2rem;
+	gap: 1.6rem;
 }
 .meal-icon {
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 2.4rem;
+	height: 2.4rem;
 	color: #e67e22;
 }
 .diets {
@@ -246,23 +254,26 @@ header {
 	gap: 1.6rem;
 }
 .list-items {
-	font-size: 1.1rem;
+	font-size: 1.8rem;
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
 }
 .diet-icon {
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 2.4rem;
+	height: 2.4rem;
 	color: #e67e22;
 }
 .all-receipes {
 	text-align: center;
 	margin-top: 2.8rem;
 }
+.all-receipes a:link {
+	font-size: 1.6rem;
+}
 
 /* 
-========= HOW IT WORKS =========
+========= TESTIMONIAL SECTION =========
 */
 .testimonial-section {
 	background-color: #fdf2e9;
@@ -271,33 +282,34 @@ header {
 	align-items: center;
 }
 .testimonial-container {
-	padding: 4.6rem;
+	padding: 9.6rem;
 }
 .testimonial-contents {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 4.8rem;
+	row-gap: 4.8rem;
+	column-gap: 8rem;
 }
 .testimonial-img {
-	width: 4.8rem;
-	border-radius: 100%;
-	margin-bottom: 1.8rem;
+	width: 6.4rem;
+	border-radius: 50%;
+	margin-bottom: 1.2rem;
 }
 .testimonial-text {
-	font-size: 1.2rem;
-	line-height: 1.36;
-	margin-bottom: 1.8rem;
+	font-size: 1.8rem;
+	line-height: 1.8;
+	margin-bottom: 1.6rem;
 }
 .testimonial-author {
-	font-size: 1rem;
+	font-size: 1.6rem;
 	color: #6f6f6f;
 }
 
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 1rem;
-	padding: 1rem;
+	gap: 1.6rem;
+	padding: 1.6rem;
 }
 .gallery-items {
 	overflow: hidden;
@@ -321,7 +333,7 @@ header {
 	/* border: 1px solid #e67e22; */
 	background-color: #fdf2e9;
 	border-radius: 11px;
-	width: 90%;
+	width: 75%;
 }
 .pricing-plan:first-child {
 	background-color: transparent;
@@ -338,12 +350,12 @@ header {
 	content: 'Best value';
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	background-color: #fab005;
 	padding: 0.8rem 4.2rem;
 	position: absolute;
-	top: 7%;
-	right: -14%;
+	top: 9%;
+	right: -9%;
 	transform: rotate(45deg);
 }
 .plan-header {
@@ -353,24 +365,24 @@ header {
 .plan-name {
 	color: #b8651b;
 	font-weight: 600;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.75;
 	margin-bottom: 1.7rem;
 }
 .plan-price {
-	font-size: 4.2rem;
+	font-size: 6.2rem;
 	color: #333;
 	font-weight: 600;
-	margin-bottom: 0.6rem;
+	margin-bottom: 1.6rem;
 }
 .plan-price span {
-	font-size: 3.2rem;
+	font-size: 3rem;
 	font-weight: 500;
-	margin-right: 1rem;
+	margin-right: 0.8rem;
 }
 .plan-text {
-	font-size: 1.02rem;
+	font-size: 1.3rem;
 	line-height: 1.2;
 	color: #6f6f6f;
 }
@@ -385,10 +397,13 @@ header {
 	text-align: center;
 	margin-top: 4.8rem;
 }
+.pricing-cancel-terms{
+	font-size: 1.7rem;
+}
 .feature-icon {
 	color: #e67e22;
-	width: 2.4rem;
-	height: 2.4rem;
+	width: 3.2rem;
+	height: 3.2rem;
 	margin-bottom: 2.4rem;
 	background-color: #fdf2e9;
 	padding: 1rem;
@@ -396,12 +411,12 @@ header {
 }
 
 .feature-title {
-	font-size: 1.2rem;
+	font-size: 2.4rem;
 	font-weight: 700;
 	margin-bottom: 1.2rem;
 }
 .feature-text {
-	font-size: 1.03rem;
+	font-size: 1.8rem;
 	line-height: 1.8;
 }
 
@@ -409,33 +424,32 @@ header {
 ========= HOW IT WORKS =========
 */
 .cta-section {
-	padding: 9.6rem 0;
+	padding: 4.8rem 0 12.8rem;
 }
 .cta {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	gap: 1rem;
+	/* gap: 1rem; */
 	background-image: linear-gradient(to right, #eea564, #e67e22);
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 	border-radius: 11px;
 	overflow: hidden;
 }
 .cta-form {
-	padding: 2.8rem 3.6rem;
+	padding: 4.8rem 6.4rem 6.4rem 6.4rem;
 	color: #733f11;
 	outline: none;
 }
 .cta-form label {
 	display: block;
-	font-size: 1.03rem;
+	font-size: 1.6rem;
 	font-weight: 500;
-	margin-bottom: .7rem;
-	
+	margin-bottom: 1.2rem;
 }
 .cta-form input {
 	width: 100%;
-	font-size: 1rem;
-	padding: 0.7rem;
+	font-size: 1.8rem;
+	padding: 1.2rem;
 	font-family: inherit;
 	border: none;
 	border-radius: 11px;
@@ -447,12 +461,12 @@ header {
 }
 .cta-form select {
 	font-family: inherit;
-	font-size: 1rem;
+	font-size: 1.8rem;
 	color: #6f6f6f;
-	padding: .7rem;
+	padding: 1.2rem;
 	width: 100%;
 	border: none;
-	border-radius: 11px;
+	border-radius: 9px;
 	background-color: #fae5d3;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.075);
 }
@@ -462,12 +476,12 @@ header {
 	border: none;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.075);
 	border-radius: 11px;
-	font-size: 1rem;
+	font-size: 1.8rem;
 	cursor: pointer;
 	align-self: end;
-	padding: .8rem;
+	padding: 1.2rem;
 }
-.cta-form button:hover{
+.cta-form button:hover {
 	background-color: white;
 	color: #333;
 }
@@ -475,15 +489,15 @@ header {
 	margin-bottom: 1.5rem !important;
 }
 .cta-text {
-	font-size: 1.2rem;
-	line-height: 1.3;
-	margin-bottom: 2.5rem;
+	font-size: 1.8rem;
+	line-height: 1.8;
+	margin-bottom: 4.8rem;
 }
 .form-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	column-gap: 3.4rem;
-	row-gap: 2.4rem;
+	column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
 .cta-img {
 	background-image: linear-gradient(
@@ -500,79 +514,79 @@ header {
 ========= HOW IT WORKS =========
 */
 .footer-section {
-	padding: 4.6rem 0;
-	border-top: 1px solid #ddd;
+	padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
-.footer-container{
+.footer-container {
 	grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
-.logo{
+.logo {
 	display: flex;
 	flex-direction: column;
 	gap: 1.2rem;
 }
-.social-links{
+.social-links {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 }
-.social-link .footer-icon{
+.social-link .footer-icon {
 	width: 2rem;
 	height: 2rem;
 	color: #333;
 }
-.footer-logo{
+.footer-logo {
 	margin-bottom: 1.2rem;
 }
-.footer-heading{
-	font-size: 1.4rem;
+.footer-heading {
+	font-size: 1.8rem;
 	font-weight: 500;
 	margin-bottom: 2.2rem;
 }
-.copyright{
-	font-size: .9rem;
-	line-height: 1.2;
+.copyright {
+	font-size: 1.4rem;
+	line-height: 1.4;
 	color: #767676;
 	margin-top: auto;
 }
-.footer-links{
+.footer-links {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
 }
 .footer-link:link,
-.footer-link:visited{
+.footer-link:visited {
 	text-decoration: none;
-	font-size: 1.09rem;
+	font-size: 1.8rem;
 	color: #767676;
-	transition: all .3s;
+	transition: all 0.3s;
 }
 .footer-link:hover,
-.footer-link:active{
+.footer-link:active {
 	color: #e67e22;
 }
-.address-inner--container{
+.address-inner--container {
 	display: flex;
 	flex-direction: column;
 	gap: 1.2rem;
 }
 .address-text,
 .phone,
-.email{
-	font-size: 1rem;
+.email {
+	font-size: 1.8rem;
 	color: #767676;
 }
-.address-text{
+.address-text {
 	line-height: 1.4;
 }
 .phone a,
-.email a{
+.email a {
 	text-decoration: none;
 	color: inherit;
 	display: flex;
 }
-.address-icon{
+.address-icon {
 	width: 1.2rem;
 	height: 1.2rem;
 	color: #333;

@@ -1,4 +1,8 @@
-@media screen and (max-width: 84em) {
+/*
+---------- Beelow 1344px (smaller desktop) ----
+  1344/16 = 84em
+*/
+@media (max-width: 84em) {
 	.hero {
 		max-width: 70rem;
 		padding: 3rem;
@@ -8,5 +12,16 @@
   }
   .gallery{
     grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/*
+---------- Beelow 1200px (landscape tablet) ----
+  1200/16 = 75em
+*/
+@media(max-width:75em){
+  /*  */
+  html{
+     font-size: 56.25%;
   }
 }
