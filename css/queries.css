@@ -13,7 +13,6 @@
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
 	}
-  
 }
 
 /*
@@ -28,18 +27,67 @@
 	.header {
 		padding: 0 4.8rem;
 	}
-  .hero{
-    max-width: 125rem;
-    gap: 4.8rem;
-  }
+	.hero {
+		max-width: 125rem;
+		gap: 4.8rem;
+	}
 	.secondary-heading {
 		font-size: 3.6rem;
 	}
 	.ternary-heading {
 		font-size: 2.4rem;
 	}
-  .testimonial-container{
-    padding: 9.6rem 4.8rem;
+	.testimonial-container {
+		padding: 9.6rem 4.8rem;
+	}
+}
+
+/*
+---------- Beelow 940px ( tablet) ----
+  944/16 = 58.7em
+*/
+@media (max-width: 59em) {
+	html {
+		font-size: 50%;
+	}
+	.hero-text-box,
+	.hero-img-box {
+		text-align: center;
+	}
+	.delivered-meals {
+		justify-content: center;
+	}
+	.hero {
+		max-width: 90rem;
+		grid-template-columns: 1fr;
+		gap: 9.8rem;
+	}
+	.hero-img {
+		width: 60%;
+	}
+	.logos img {
+		height: 2.4rem;
+	}
+	.step-no {
+		font-size: 7.4rem;
+	}
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .testimonial-section{
+    grid-template-columns: 1fr;
+  }
+  .gallery{
+    grid-template-columns: repeat(6,1fr);
+  }
+  .cta{
+    grid-template-columns: 3fr 2fr;
+  }
+  .form-container{
+    grid-template-columns: 1fr;
+  }
+  .cta-form button{
+    margin-top: 1.2rem;
   }
 }
 
