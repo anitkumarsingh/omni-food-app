@@ -1,0 +1,12 @@
+@media screen and (max-width: 84em) {
+	.hero {
+		max-width: 70rem;
+		padding: 3rem;
+	}
+  .primary-heading {
+    font-size: 2.5rem;
+  }
+  .gallery{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
