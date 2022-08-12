@@ -66,6 +66,20 @@
 .icon-mobile-nav[name="close-outline"]{
 	display: none;
 }
+
+.sticky .header{
+	position:fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 8rem;
+	background-color: #fff;
+	z-index: 999;
+	box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+.sticky .hero-section{
+	margin-top: 9.6rem;
+}
 /* 
 ========= HERO COMPONENTS=========
 */
