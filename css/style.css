@@ -86,7 +86,7 @@
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
-	/* margin-top: 8rem; */
+	margin-top: 8rem;
 }
 .delivered-faces {
 	display: flex;
