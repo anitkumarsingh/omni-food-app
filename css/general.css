@@ -50,11 +50,13 @@ html {
 	/* 10px /16px =62.5% */
 	/* percentage of user's browser setting   */
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 body {
 	font-family: 'Rubik', sans-serif;
 	line-height: 1;
 	color: #555;
+	overflow-x: hidden;
 }
 /* 
 ========= RESUABLE COMPONENTS =========
