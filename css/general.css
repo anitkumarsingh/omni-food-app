@@ -51,6 +51,7 @@ html {
 	/* percentage of user's browser setting   */
 	font-size: 62.5%;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'Rubik', sans-serif;
