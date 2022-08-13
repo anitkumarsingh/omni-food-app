@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="We are a technology company first, but with a major focus on consumer well-being through a healthy diet. Most people are very busy with their jobs, family and friends, and other important activities, which doesn't leave much time for cooking. This might lead to a poor diet and lasting health consequences. We want to solve this problem by using an AI-centric approach. Users can use our app to select their diet and foods they like and dislike, and our AI algorithm will create a custom and individual weekly meal plan. But we don't stop there. We partner with restaurants and other cooking partners to actually cook and deliver all meals from the generated meal plans, in selected cities. All this will be packed up in a monthly subscription, where users can choose between receiving one or two meals per day, every single day of the month."
+		/>
+		<link rel="icon" href="/img/favicon.png"/>
+		<link rel="apple-tourch-icon" href="/img/apple-touch-icon.png"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -13,7 +19,11 @@
 		<link rel="stylesheet" href="/css/general.css" />
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/queries.css" />
-		<title>Omnifood</title>
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+		<title>Omnifood &mdash; AI based food subcription</title>
 	</head>
 	<body>
 		<header class="header">
@@ -22,11 +32,11 @@
 			</a>
 			<nav class="main-nav">
 				<ul class="nav-main-list">
-					<li><a href="#" class="nav-main-link">How it works</a></li>
-					<li><a href="#" class="nav-main-link">Meals</a></li>
-					<li><a href="#" class="nav-main-link">Testimonials</a></li>
-					<li><a href="#" class="nav-main-link">Pricing</a></li>
-					<li><a href="#" class="nav-main-link nav-cta">Try for free</a></li>
+					<li><a href="#how" class="nav-main-link">How it works</a></li>
+					<li><a href="#meals" class="nav-main-link">Meals</a></li>
+					<li><a href="#testimonials" class="nav-main-link">Testimonials</a></li>
+					<li><a href="#pricing" class="nav-main-link">Pricing</a></li>
+					<li><a href="#cta" class="nav-main-link nav-cta">Try for free</a></li>
 				</ul>
 			</nav>
 			<button class="btn-mobile-nav">
@@ -45,8 +55,10 @@
 							The smart 365-days-per-year food subscription that will make you eat healthy
 							again. Tailored to your personal tastes and nutritional needs.
 						</p>
-						<a href="#" class="btn btn-primary margin-right-sm">Start eating healthy</a>
-						<a href="#" class="btn btn-outline">Try now &darr;</a>
+						<a href="#cta" class="btn btn-primary margin-right-sm"
+							>Start eating healthy</a
+						>
+						<a href="#how" class="btn btn-outline">Try now &darr;</a>
 						<div class="delivered-meals">
 							<div class="delivered-faces">
 								<img src="/img/customers/customer-1.jpg" alt="customer photo" />
@@ -66,7 +78,11 @@
 					</div>
 
 					<div class="hero-img-box">
-						<img src="/img/hero.png" alt="Woman enjoying meal" class="hero-img" />
+						<picture>
+							<source srcset="/img/hero.webp" type="image/webp" />
+							<source srcset="/img/hero-min.png" type="image/png" />
+						<img src="/img/hero-min.png" alt="Woman enjoying meal" class="hero-img" />
+						</picture>
 					</div>
 				</div>
 			</section>
@@ -102,7 +118,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="how-work">
+			<section class="how-work" id="how">
 				<div class="container">
 					<span class="sub-heading">How it work</span>
 					<h2 class="secondary-heading">Your daily dose of health in 3 simple steps</h2>
@@ -150,7 +166,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="meals-section">
+			<section class="meals-section" id="meals">
 				<div class="container text-center">
 					<span class="sub-heading">Meals</span>
 					<h2 class="secondary-heading">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -249,7 +265,7 @@
 					<a href="#" class="link">See all recipes &rarr;</a>
 				</div>
 			</section>
-			<section class="testimonial-section">
+			<section class="testimonial-section" id="testimonials">
 				<div class="testimonial-container">
 					<span class="sub-heading">Testimonials</span>
 					<h2 class="secondary-heading">Once you try it, you can't go back!</h2>
@@ -351,7 +367,7 @@
 					</figure>
 				</div>
 			</section>
-			<section class="section-pricing">
+			<section class="section-pricing" id="pricing">
 				<div class="container">
 					<span class="sub-heading">Pricing</span>
 					<h2 class="secondary-heading">Eat healthy without breaking you bank</h2>
@@ -451,7 +467,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="cta-section">
+			<section class="cta-section" id="cta">
 				<div class="container">
 					<div class="cta">
 						<div class="cta-form">
@@ -514,7 +530,10 @@
 							</a>
 						</li>
 					</ul>
-					<p class="copyright">Copyright &copy; 2027 Omnifood Inc,All right preserved</p>
+					<p class="copyright">
+						Copyright &copy; <span class="year">2010</span> by Anit Kumar,Follow alone
+						course project
+					</p>
 				</div>
 				<div class="address">
 					<p class="footer-heading">Contact Us</p>
@@ -566,5 +585,6 @@
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
+		<script defer src="/js/script.js"></script>
 	</body>
 </html>
